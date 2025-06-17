@@ -3,7 +3,8 @@
   "module": "app.ts",
   "private": true,
   "scripts": {
-    "dev": "node app.js"
+    "dev": "bun app.js",
+    "start": "bun run app.js"
   },
   "devDependencies": {
     "@types/bun": "latest"
